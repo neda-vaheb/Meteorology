@@ -114,4 +114,55 @@ img{
      margin: 5px 10px;
  }
 
- 
+ @media(max-width:1000px){
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    form input{
+        width: 50%;
+        font-size: 1rem;
+    }
+    form button{
+        width:51%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    body{
+        padding: 40px;
+    }
+    .heading{
+        font-size: 2rem;
+
+    }
+    .cities{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+@media screen and (max-width:580px) {
+
+     form input{
+        width: 70%;
+        font-size: 0.8rem;
+    }
+    form button{
+        width:70%;
+        margin-left: 0;
+    }
+    body{
+        padding: 10px;
+    }
+    .heading{
+        font-size: 1.3rem;
+
+    }
+    .msg{
+        font-size: 0.7rem;
+    }
+    .cities{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
