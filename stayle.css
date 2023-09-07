@@ -65,3 +65,53 @@ body{
     font-size: 1rem;
     color:white;
 }
+
+.ajax-section{
+    margin: 70px 0 20px;
+}
+.cities{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    gap:30px 20px;
+}
+.city{
+    background-color: white;
+    padding: 15px 20px;
+    color: rgb(83, 80, 80);
+    border-radius: 20px;
+    box-shadow: 0px 10px 0px rgba(179, 177, 177, 0.562);
+    position: relative;
+}
+.city h2{
+    color:rgb(68, 64, 64);
+    text-align: left;
+    margin-left: 10px;
+}
+.name{
+    font-size: 2rem;
+    color: rgb(59, 59, 59);
+
+}
+.country{
+    font-size: 1rem;
+    color:black;
+    background-color: rgb(212, 212, 54);
+    padding: 3px;
+    border-radius: 10px;
+}
+.city-temp{
+    font-size: 5rem;
+    margin: 10px 20px;
+}
+img{
+
+    margin: 10px 0;
+    display: block;
+ }
+ figurecaption{
+     display: block;
+     margin: 5px 10px;
+ }
+
+ 
